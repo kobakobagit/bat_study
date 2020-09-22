@@ -2,6 +2,7 @@ import numpy as np
 
 # example set ===
 check_list = [(1,2,3,0),(1,3,4,1),(2,4,5,2),(4,5,10,2),(7,2,1,0),(7,2,3,1)]
+# check_list = list(zip(*np.where(obj_mask != 0)))
 obj_true_box = np.arange(24).reshape(6,-1)
 
 # idx which is used when getting same img===
